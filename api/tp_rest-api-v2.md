@@ -1,16 +1,16 @@
 ---
-name: apptio-targetprocess
-description: Use when working with Apptio Targetprocess REST API v2, Targetprocess MCP servers, read-only agile metrics, API query construction, selectors, filters, custom fields, tags, dates, releases, iterations, relations, paging, or troubleshooting Targetprocess API responses.
+name: tp_rest-api-v2
+description: Use when working with Apptio Targetprocess REST API v2, read-only agile metrics, API query construction, selectors, filters, custom fields, tags, dates, releases, iterations, relations, paging, or troubleshooting Targetprocess API responses.
 ---
 
-# Apptio Targetprocess
+# Targetprocess REST API v2
 
-Use this skill when building, reviewing, or querying Apptio Targetprocess integrations, especially read-only MCP tools backed by Targetprocess REST API v2.
+Use this reference when building, reviewing, or querying Apptio Targetprocess integrations, especially read-only tools backed by Targetprocess REST API v2.
 
 ## Core Rules
 
-- Prefer REST API v2 for analytics and MCP tools because it is read-only and supports advanced query expressions.
-- Never design Targetprocess MCP tools that mutate data unless the user explicitly asks for API v1 write behavior.
+- Prefer REST API v2 for analytics because it is read-only and supports advanced query expressions.
+- Never design Targetprocess REST API v2 flows that mutate data; use API v1 only when the user explicitly asks for write behavior.
 - Build requests as `GET /api/v2/{entity}` with query parameters such as `where`, `select`, `result`, `take`, `skip`, `orderBy`, `filter`, and date format flags.
 - Use entity type names in Targetprocess API form, such as `UserStory`, `Bug`, `Assignable`, `Release`, `TeamIteration`, `Relation`, or account-specific custom entity names.
 - Keep selectors explicit. API v2 omits null fields and only returns requested projected fields reliably.
