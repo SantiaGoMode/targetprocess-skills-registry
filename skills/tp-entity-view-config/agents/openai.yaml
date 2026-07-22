@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Entity View Config"
+  short_description: "Configure entity views and UI controls"
+  default_prompt: "Use $tp-entity-view-config to configure a Targetprocess detailed view or supported UI control."

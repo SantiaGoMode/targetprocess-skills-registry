@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Formulas and Validation"
+  short_description: "Build metrics, formulas, and validations"
+  default_prompt: "Use $tp-formulas-validation to design a Targetprocess metric, calculated field, or Validation Rule."

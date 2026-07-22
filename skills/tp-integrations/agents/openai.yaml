@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Integrations"
+  short_description: "Build native and external integrations"
+  default_prompt: "Use $tp-integrations to design a Targetprocess DevOps, WorkSharing, Zapier, or auxiliary API integration."

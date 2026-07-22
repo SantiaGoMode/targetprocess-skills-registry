@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess REST API v1"
+  short_description: "Build safe Targetprocess CRUD integrations"
+  default_prompt: "Use $tp-rest-api-v1 to design a safe Targetprocess API v1 request or mutation workflow."

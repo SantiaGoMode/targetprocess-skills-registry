@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Automation Rules"
+  short_description: "Design and troubleshoot automation rules"
+  default_prompt: "Use $tp-automation-rules to design or troubleshoot a safe Targetprocess Automation Rule."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Email Templates"
+  short_description: "Customize notification template behavior"
+  default_prompt: "Use $tp-email-templates to create or troubleshoot a Targetprocess notification template."

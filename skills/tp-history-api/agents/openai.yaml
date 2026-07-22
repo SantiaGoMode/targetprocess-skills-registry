@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess History API"
+  short_description: "Query and reconstruct historical changes"
+  default_prompt: "Use $tp-history-api to retrieve or reconstruct historical Targetprocess entity changes."

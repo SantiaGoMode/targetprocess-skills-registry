@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "targetprocess-skills-registry",
+  "displayName": "Targetprocess Skills Registry",
+  "version": "1.0.0",
+  "description": "Expert Apptio Targetprocess skills covering APIs, automation, formulas, entity views, mashups, integrations, import/export, email templates, and governance.",
+  "author": {
+    "name": "SantiagoMode",
+    "url": "https://github.com/SantiaGoMode"
+  },
+  "repository": "https://github.com/SantiaGoMode/targetprocess-skills-registry",
+  "keywords": [
+    "apptio",
+    "targetprocess",
+    "api",
+    "automation"
+  ],
+  "skills": "./skills/"
+}

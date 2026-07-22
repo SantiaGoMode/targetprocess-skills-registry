@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Mashups"
+  short_description: "Build and maintain Targetprocess mashups"
+  default_prompt: "Use $tp-mashups to design or troubleshoot a Targetprocess client-side mashup."

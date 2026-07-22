@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess REST API v2"
+  short_description: "Build read-only Targetprocess queries"
+  default_prompt: "Use $tp-rest-api-v2 to construct and troubleshoot a Targetprocess API v2 query."

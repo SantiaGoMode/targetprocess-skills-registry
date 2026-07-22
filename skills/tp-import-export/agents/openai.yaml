@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Import and Export"
+  short_description: "Design safe CSV import and export flows"
+  default_prompt: "Use $tp-import-export to plan or troubleshoot a Targetprocess CSV import or export workflow."

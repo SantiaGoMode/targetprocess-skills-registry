@@ -1,0 +1,4 @@
+interface:
+  display_name: "Targetprocess Governance"
+  short_description: "Govern APIs, rules, and customizations"
+  default_prompt: "Use $tp-governance to review Targetprocess API, rule, credential, and customization governance."
